@@ -260,6 +260,61 @@ footer {
   opacity: 0;
   transition-delay: 2s; }
 
+#people-2 {
+  background-image: url("../assets/images/experience.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  float: left;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh !important;
+  overflow: hidden !important; }
+  #people-2 .container-x {
+    height: 100vh !important;
+    z-index: 1;
+    position: absolute;
+    top: 0; }
+  #people-2 img {
+    width: auto;
+    height: 100vw;
+    top: 0; }
+  #people-2 #overlay-2 {
+    width: 102vw !important;
+    left: -1vw;
+    z-index: 10;
+    position: sticky !important;
+    transform-origin: center;
+    transition: .1s; }
+  #people-2 h2 {
+    position: absolute;
+    top: 30vh;
+    opacity: 0; }
+  #people-2 p {
+    position: absolute;
+    top: 40vh;
+    opacity: 0;
+    transition-delay: 1s;
+    transition: .5s; }
+
+#people-2:hover h2 {
+  opacity: 1;
+  transition-delay: 2s; }
+#people-2:hover p {
+  opacity: 1;
+  transition-delay: 2s; }
+#people-2:hover #overlay-2 {
+  transform: scale(100) !important;
+  transition-delay: 0.75s !important;
+  transition: 1.5s;
+  margin-top: 800vh !important;
+  margin-left: 50vw !important; }
+#people-2:hover #overlay-2 {
+  opacity: 0;
+  transition-delay: 2s; }
+
 .home-section-2 {
   background-color: white;
   position: relative;
@@ -272,8 +327,25 @@ footer {
     font-weight: 900;
     line-height: 65px;
     margin-top: 22.5vh; }
-  .home-section-2 p {
-    margin-top: 27.5vh; }
+  .home-section-2 ul {
+    margin-top: 27.5vh;
+    list-style: none; }
+    .home-section-2 ul li {
+      margin-bottom: 10px; }
+    .home-section-2 ul h3 {
+      padding: 0;
+      margin: 0;
+      font-weight: bold;
+      font-size: 22px; }
+    .home-section-2 ul p {
+      padding: 0;
+      margin: 0; }
+  .home-section-2 .orange {
+    color: #F26524; }
+  .home-section-2 .turquoise {
+    color: #00AC98; }
+  .home-section-2 .green {
+    color: #C2D500; }
   .home-section-2 .gray-box {
     background-color: #F4F4F5;
     height: 55vh;
@@ -286,7 +358,9 @@ footer {
     left: 0;
     margin-top: -20vh;
     position: absolute; }
-  .home-section-2 .svg-v-1 {
+  .home-section-2 .svg-v-12 {
+    position: absolute;
+    right: 5.75vw;
     z-index: 1; }
   .home-section-2 .svg-v-2 {
     left: 44.25vw;

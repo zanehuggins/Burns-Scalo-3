@@ -351,6 +351,86 @@ p{
 }
 
 
+
+
+
+
+
+
+#people-2{
+  .container-x{
+    height: 100vh!important;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+  }
+  background-image: url('../assets/images/experience.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  padding: 0;
+  float: left;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh!important;
+  overflow: hidden!important;
+img{
+  width: auto;
+  height: 100vw;
+top: 0;
+}
+  #overlay-2 {
+  width: 102vw!important;
+  left: -1vw;
+z-index: 10;
+position: sticky!important;
+  transform-origin: center;
+transition: .1s;
+}
+
+h2{
+  position: absolute;
+  top: 30vh;
+  opacity: 0;
+}
+p{
+  position: absolute;
+  top: 40vh;
+  opacity: 0;
+  transition-delay: 1s;
+  transition: .5s;
+}
+}
+
+#people-2:hover{
+h2{
+  opacity: 1;
+  transition-delay: 2s;
+}
+p{
+  opacity: 1;
+  transition-delay: 2s;
+}
+
+#overlay-2{
+  transform: scale(100)!important;
+  transition-delay: .75s!important;
+  transition: 1.5s;
+  margin-top: 800vh!important;
+  margin-left: 50vw!important;
+}
+
+#overlay-2{
+  opacity: 0;
+  transition-delay: 2s;
+}
+}
+
+
+
+
 .home-section-2{
 background-color: white;
 position: relative;
@@ -366,10 +446,37 @@ h2{
   line-height: 65px;
   margin-top: 22.5vh;
 }
-p{
+
+ul{
   margin-top: 27.5vh;
+  list-style: none;
+  li{
+    margin-bottom: 10px;
+  }
+  h3{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  p{
+    padding: 0;
+    margin: 0;
+  }
 }
 
+.orange{
+  color: $orange;
+}
+
+.turquoise{
+  color: $turquoise;
+}
+
+.green{
+  color: $green;
+}
 
 .gray-box{
   background-color: #F4F4F5;
@@ -386,7 +493,9 @@ p{
   position: absolute;
 }
 
-.svg-v-1{
+.svg-v-12{
+  position: absolute;
+  right: 5.75vw;
   z-index: 1;
 }
 
