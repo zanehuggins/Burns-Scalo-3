@@ -339,7 +339,11 @@ p{
 }
 
 #overlay-1{
+  /*
   transform: scale(100)!important;
+  -moz-transform: scale(100)!important;
+  -webkit-transform: scale(100)!important;
+  */
   transition-delay: .75s!important;
   transition: 1.5s;
   margin-top: -120vh!important;
@@ -416,7 +420,11 @@ p{
 }
 
 #overlay-2{
+  /*
   transform: scale(100)!important;
+  -moz-transform: scale(100)!important;
+  -webkit-transform: scale(100)!important;
+  */
   transition-delay: .75s!important;
   transition: 1.5s;
   margin-top: 800vh!important;

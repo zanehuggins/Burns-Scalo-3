@@ -253,7 +253,11 @@ footer {
   opacity: 1;
   transition-delay: 2s; }
 #people:hover #overlay-1 {
-  transform: scale(100) !important;
+  /*
+  transform: scale(100)!important;
+  -moz-transform: scale(100)!important;
+  -webkit-transform: scale(100)!important;
+  */
   transition-delay: 0.75s !important;
   transition: 1.5s;
   margin-top: -120vh !important; }
@@ -307,7 +311,11 @@ footer {
   opacity: 1;
   transition-delay: 2s; }
 #people-2:hover #overlay-2 {
-  transform: scale(100) !important;
+  /*
+  transform: scale(100)!important;
+  -moz-transform: scale(100)!important;
+  -webkit-transform: scale(100)!important;
+  */
   transition-delay: 0.75s !important;
   transition: 1.5s;
   margin-top: 800vh !important;
