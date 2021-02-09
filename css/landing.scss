@@ -38,7 +38,7 @@ h1{
 h2{
   font-weight: 900;
   text-align: left;
-  border-bottom: 6px solid $turquoise;
+  border-bottom: 9px solid $turquoise;
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -53,9 +53,11 @@ h3{
   color: white;
   font-size: 20px;
   margin-top: 22vh;
+  border-bottom: 6px solid $orange;
 }
 h4{
   font-weight: 900;
+    border-bottom: 6px solid $orange;
 }
 p{
   font-size: 14px;
