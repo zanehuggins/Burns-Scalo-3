@@ -112,6 +112,9 @@ footer {
       float: left;
       padding-right: 10px; }
 
+span {
+  color: white; }
+
 @media (min-width: 414px) {
   h1 {
     left: 50px; } }
