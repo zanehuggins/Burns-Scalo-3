@@ -73,6 +73,7 @@ h4{
   font-weight: 900;
     border-bottom: 6px solid $orange;
     float: left;
+    max-width: 300px!important;
 }
 p{
   font-size: 16px;
@@ -140,6 +141,8 @@ footer{
     li{
       float: left;
     padding-right: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
     }
   }
 }
