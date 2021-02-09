@@ -53,7 +53,8 @@ h3 {
 
 h4 {
   font-weight: 900;
-  border-bottom: 6px solid #F26524; }
+  border-bottom: 6px solid #F26524;
+  float: left; }
 
 p {
   font-size: 16px; }
@@ -71,6 +72,9 @@ aside {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 25px; }
+
+form {
+  float: left; }
 
 input {
   border-radius: 0;
@@ -119,5 +123,18 @@ span {
   h1 {
     margin-top: 420px !important;
     left: 50px; } }
+@media (min-width: 768px) {
+  h1 {
+    margin-top: 420px !important;
+    left: 400px; }
+
+  h2 {
+    text-align: right; }
+
+  h4 {
+    text-align: right; }
+
+  p {
+    margin-top: 25px; } }
 
 /*# sourceMappingURL=landing.css.map */
