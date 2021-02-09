@@ -1,7 +1,8 @@
 header {
   overflow: hidden !important;
   height: 50vh;
-  position: relative; }
+  position: relative;
+  float: left; }
   header a {
     position: absolute;
     z-index: 5;
@@ -29,7 +30,11 @@ h1 {
   z-index: 5;
   position: absolute;
   float: right !important;
-  left: 10px; }
+  left: 10px;
+  transform: rotate(90deg);
+  position: fixed;
+  top: -25vw;
+  float: right; }
 
 h2 {
   font-weight: 900;
@@ -58,6 +63,9 @@ h4 {
 
 p {
   font-size: 16px; }
+
+main {
+  float: left; }
 
 .container-1 {
   float: left; }
@@ -128,13 +136,17 @@ span {
     top: -10vh; }
 
   h1 {
-    margin-top: 380px !important;
-    left: 398px;
+    margin-top: 60vh !important;
+    left: 51.5vw;
     font-size: 60px; }
 
   h2 {
     text-align: right;
     margin-top: 50px; }
+
+  h3 {
+    margin-top: 40vh;
+    max-width: 130px; }
 
   h4 {
     text-align: right; }
@@ -143,7 +155,33 @@ span {
     margin-top: 50px; }
 
   aside {
+    margin-top: 5vh;
     padding-top: 40px;
     padding-bottom: 40px; } }
+@media (min-width: 1024px) {
+  header {
+    height: 100vh; }
+    header .background {
+      height: 100vh;
+      width: auto;
+      top: 0; }
+
+  span {
+    color: #333033; }
+
+  h1 {
+    top: -9vh;
+    margin-left: 23vw; }
+
+  h2 {
+    text-align: left;
+    margin-bottom: 0;
+    max-width: 130px; }
+
+  p {
+    margin-top: 25px; }
+
+  h4 {
+    text-align: left; } }
 
 /*# sourceMappingURL=landing.css.map */
