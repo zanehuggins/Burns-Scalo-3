@@ -8,12 +8,17 @@ header{
   overflow: hidden!important;
   height: 50vh;
   position: relative;
-
-  img{
+a{
+  position: absolute;
+  z-index: 5;
+  margin-top: 15px;
+}
+  .background{
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 0;
+    left: 0;
   }
 }
 

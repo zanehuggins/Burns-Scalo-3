@@ -2,11 +2,16 @@ header {
   overflow: hidden !important;
   height: 50vh;
   position: relative; }
-  header img {
+  header a {
+    position: absolute;
+    z-index: 5;
+    margin-top: 15px; }
+  header .background {
     width: 100%;
     height: auto;
     position: absolute;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
 
 h1 {
   position: absolute;
