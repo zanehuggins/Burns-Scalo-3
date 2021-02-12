@@ -736,31 +736,25 @@ section {
   transition: 1s; }
 
 .outline-orange {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #F26524;
-  color: rgba(255, 255, 255, 0);
+  color: #333033;
   font-size: 75px;
   line-height: 75px;
   font-family: gotham;
-  font-weight: bold; }
+  font-weight: 900; }
 
 .outline-turquoise {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #00AC98;
-  color: rgba(255, 255, 255, 0);
+  color: #333033;
   font-size: 75px;
   line-height: 75px;
   font-family: gotham;
-  font-weight: bold; }
+  font-weight: 900; }
 
 .outline-green {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #C2D500;
-  color: rgba(255, 255, 255, 0);
+  color: #333033;
   font-size: 75px;
   line-height: 75px;
   font-family: gotham;
-  font-weight: bold; }
+  font-weight: 900; }
 
 /* PORTFOLIO PAGE */
 aside {
